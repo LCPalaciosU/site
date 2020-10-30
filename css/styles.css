@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background: hsl(180, 29%, 50%) url("../images/bg-header-desktop.svg");	
+	height: 100px;
+}
+
+.container{		
+	background-color: hsl(180, 52%, 96%);
+	height: 100vh;	
+}
+
+.valoraciones{
+	font-family: "Spartan";
+	width: 80%;
+	margin: 0 auto;		
+	padding: 20px;
+}
+
+.valoracion{	
+	margin-top:20px;
+	padding: 20px;
+	box-shadow: 2px 2px 10px hsl(180, 52%, 85%),
+				4px 0 0 hsl(180, 29%, 50%) inset;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.valoracion .nombre{
+	color:hsl(180, 14%, 20%)
+}
+
+.valoracion .regional{
+	color:hsl(180, 29%, 50%);
+	margin-bottom:20px;
+}
+.nombre{
+	width: 70%;
+}
+.valores{
+	width: 20%;
+}
+
+.nombre, .valores, .puntuar{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.valores span, .puntuar span{
+	color: hsl(180, 29%, 50%);
+	font-weight: bold;
+	background-color: hsl(180, 31%, 95%);
+	padding: 8px 10px;
+	border-radius: 3px;
+}
+
+
+.puntuar span{
+	padding: 8px;
+	color: hsl(180, 29%, 50%);	
+}
