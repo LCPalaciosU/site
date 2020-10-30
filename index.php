@@ -1,9 +1,4 @@
-<?php
-	require_once("app/config.php");
-
-	$data =
-	[
-		title="Inicio"
-	];
-
-	render_view('index', $data);
+<?php echo "Hola mundo" ?>
+<?php echo "Hola Karen"; ?>
+/**Comentario */
+<?php echo "Cambio 2"; ?>
